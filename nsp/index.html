@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="'en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Rajasthan Tourism</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+/>
+</head>
+<body>
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>R</span>ajsthan</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input types="search" id="search-bar" placeholder="search here..">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+     
+</header>
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email id">
+        <input type="password" class="box"placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>Forgot password?<a href="#">click here</a></p>
+        <p>don't have and account?<a href="#">Register now</a></p>
+    </form>
+    
+</div>
+<!-- home section starts-->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Janne kya dikh jaye</h3>
+        <p>Experience the most royal state of India</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+<div class="controls">
+    <span class="vid-btn active" data-src="v-1.mp4"></span>
+    <span class="vid-btn" data-src="v-2.mp4"></span>
+    <span class="vid-btn" data-src="v-3.mp4"></span>
+    <span class="vid-btn" data-src="v-4.mp4"></span>
+    <span class="vid-btn" data-src="v-5.mp4"></span>
+</div>
+<div class="video-container">
+<video src="v-1.mp4" id="video-slider"loop autoplay muted></video>
+</div>
+</section>
+<!-- home section ends-->
+<!--book section starts-->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+     <div class="image">
+        <img src="bg.jpg" alt="">
+     </div>
+     <form action="">
+        <div class="inputBox">
+            <h3>How many</h3>
+            <input type="text" placeholder="Place Name">
+        </div>
+        <div class="inputBox">
+            <h3>How many</h3>
+            <input type="number" placeholder="No. of Guests ">
+        </div>
+        <div class="inputBox">
+            <h3>Arrival</h3>
+            <input type="date">
+        </div>
+        <div class="inputBox">
+            <h3>Depature</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="Book Now">
+     </form>
+    </div>
+
+</section>
+<!--book section ends-->
+<!--packages section starts-->
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+</h1>
+
+<div class="box-container">
+    
+    <div class="box">
+        <div class="content">
+        <img src="p6.jpg" alt="">
+        <h3> <i class="fas fa-map-marker-alt"></i>Jodhpur</h3>
+        <p>Jodhpur is the blue city of Rajasthan </p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div>
+
+    <div class="box">
+        <img src="p5.jpg" alt="">
+        <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i>Jaipur</h3>
+        <p>Jaipur is the pink city of Rajasthan</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div>
+    <div class="box">
+        <img src="p4.jpg" alt="">
+        <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i>Jaislmer</h3>
+        <p>Jaislmer is the golden city of Rajasthan </p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div>
+    <div class="box">
+        <img src="p3.jpg" alt="">
+        <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i>Popular movies destination</h3>
+        <p>Rajasthan is been readily available set for many movies</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div> 
+    <div class="box">
+        <img src="p-13.jpg" alt="" width="600" height="300">
+        <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i>Unseen Temples</h3>
+        <p>Rajasthan has alot of hidden temples bulit by royalty</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div>
+    <div class="box">
+        <img src="sunset.jpg" alt="">
+        <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i>Thar:the pride of Rajasthan</h3>
+        <p>Thar is the only living Desert in the world</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">Book Now</a></div>
+    </div>
+</div>
+</section>
+<!--packages section ends-->
+<!--Services section starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1> 
+    <div class="box-container">
+    
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-hotel"></i><h3>Affordable Hotels</h3>
+            <p>We have hotels at reasonable prices. </p>
+        </div></div>
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-utensils"></i><h3>Food and Drink</h3>
+            <p>Famous resturant and bars are coordinated.  </p>
+        </div></div>
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-bullhorn"></i><h3>safety Guide</h3>
+            <p> our packages are safe to travel.</p>
+        </div></div>
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-plane"></i><h3>Fastest Plane</h3>
+            <p>we have the fastest plane services selected in the packages.</p>
+        </div></div>
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-globe-asia"></i><h3>Global Reach</h3>
+            <p>we have packeages from all over to rajasthan.</p>
+        </div></div>
+        <div class="box">
+            <div class="content">
+             <i class="fas fa-hiking"></i><h3>Adventures </h3>
+            <p>we have alot of activites for aderline junkies.</p>
+        </div></div>
+        
+</section>
+<!--Services section ends-->
+
+<!--gallery section starts-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+           <img src="p-1.jpg" alt="">
+            <div class="content">
+                <h3>Amazing Places</h3>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="p-15.jpg" alt="">
+             <div class="content">
+                 <h3>Amazing Architeture</h3>
+
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-12.jpg" alt="">
+             <div class="content">
+                 <h3>Feel of Royalty</h3>
+
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-10.jpg" alt="">
+             <div class="content">
+                 <h3>Unheard Traditions</h3>
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-7.jpg" alt="">
+             <div class="content">
+                 <h3>Hearty Hospitality</h3>
+            
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-9.jpg" alt="">
+             <div class="content">
+                 <h3>Experience the feel of rajasthan </h3>
+       
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p2.jpg" alt="">
+             <div class="content">
+                 <h3>Vibe of variety</h3>
+
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-14.jpg" alt="">
+             <div class="content">
+                 <h3>Colors of culture</h3>
+             
+                 <a href="#" class="btn">See more </a>
+             </div>
+         </div>
+         <div class="box">
+            <img src="p-11.jpg" alt="">
+             <div class="content">
+                 <h3>Blend of Flavours</h3>
+    
+                 <a href="#" class="btn">See more</a>
+             </div>
+         </div> 
+    </div>
+</section>
+<!--gallery section ends-->
+<!--review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="g1.jpg" alt="">
+                    <h3>john deo</h3>
+                    <p>amazing place for experincing royalty</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="g4.jpg" alt="">
+                    <h3>Selena mathew</h3>
+                    <p>Vibe check</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="g3.jpg" alt="">
+                    <h3>Andrew Sans</h3>
+                    <p>Trandition will surely mesmersize you </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="g2.jpg" alt="">
+                    <h3>Betty wush</h3>
+                    <p>Hospitality like nowhere </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--review section ends-->
+<!--contact section starts-->
+<section class="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1> 
+    <div class="row">
+        <div class="image">
+            <img src="camel1.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message"name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send message">
+        </form>
+    </div>
+</section>
+<!--contact section ends-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="nsp.js"></script>
+
+</body>    
+</html>
